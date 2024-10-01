@@ -1,0 +1,17 @@
+# Ignore all executable files
+*.exe     # Windows executable
+*.out     # Common output file
+*.o       # Object files
+*.obj     # Object files (Windows)
+*.class    # Java class files
+*.dll     # Dynamic link library (Windows)
+*.so      # Shared object files (Linux)
+*.dylib   # Shared library (macOS)
+*.bin     # Binary files
+*.apk     # Android Package files
+*.ipa     # iOS App files
+
+# Ignore specific folders for build artifacts (common in many projects)
+build/
+bin/
+obj/
