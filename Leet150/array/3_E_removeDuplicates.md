@@ -1,4 +1,3 @@
-```cpp
 /**
  * Function to remove duplicates from a sorted array in-place.
  * The function modifies the array such that each unique element appears only once, and returns the new length.
@@ -21,6 +20,7 @@
  *    - By the end, the first 'i+1' elements of the array will contain unique elements.
  */
 
+```cpp
 int removeDuplicates(vector<int>& nums) {
     // Edge case: if the array is empty, return 0
     if(nums.empty()) return 0;
